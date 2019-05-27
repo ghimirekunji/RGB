@@ -1,0 +1,134 @@
+@keyframes example {
+    25%   {background-color: rgb(253, 174, 174);}
+    25%  {background-color: rgb(255, 255, 211);}
+    25%  {background-color: rgb(214, 214, 255);}  
+    100% {background-color: rgb(228, 255, 228);}
+  }
+
+
+
+
+
+  body {
+   
+    animation-iteration-count: infinite; 
+    animation-name: example;
+    animation-duration: 1.3s;
+  }
+  
+
+.wrapper {
+ 
+    background-image: url("./assets/images\ \(3\).jpeg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    /* border:6px solid black; */
+    border-radius:80px;
+    margin:auto;
+    margin-top:100px;
+    margin-bottom:100px;
+    max-width: 70vw;
+    padding:10px;
+    /* background-color: lightgoldenrodyellow; */
+    text-align: center;
+}
+
+
+.wrapper h1{
+    color: black;
+    font: size 70%;
+    text-align: center;
+    font-weight: 200%;
+    padding-bottom: 20px;
+    
+}
+
+input {
+    font-size: 10px;
+    width:60%;
+    padding:5px;
+    background-color: lightcyan;
+    text-align:center;
+}
+
+#heading-para{
+    color:black;
+    font-weight: 200%;
+    font-size: 1.8 rem;
+    
+}
+
+.genBtn{
+    width:20vw;
+    padding:6px;
+    margin-top:30px;
+    font-size:100%;
+    border-radius: 20px;
+    color:white;
+    background-color: black;
+
+}
+
+
+/* Till here is the upper input part design *//* Till here is the upper input part design */
+
+
+.resultcontainer{
+   
+    margin-top:70px;
+    width:70vw;
+    margin-left:auto;
+    margin-right:auto;
+   
+    display: flex;
+   justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.auto-gen-div{
+
+    border:2px solid black;
+    margin:20px auto;
+    width:140px;
+    height: 65px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    /* transition: width .1s;
+    transition: height .1s; */
+}
+
+.auto-gen-div:hover{
+    border-radius:50%;
+    box-shadow: inset 0 0 0 2px transparent;
+    /* -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.2); */
+
+    /* width:155px;
+    height: 85px; */
+    /* transform:rotate(-30deg);
+    transition: 500ms ease; */
+}
+
+
+.copy_btn{
+    cursor: pointer;
+    border:transparent;
+    width:30%;
+    height:30%;
+    border-radius: 5px;
+    
+    
+    
+
+}
+
+.copy_btn:hover {
+
+background-color: bisque;
+/* transform: translateY(4px); */
+
+}
+
