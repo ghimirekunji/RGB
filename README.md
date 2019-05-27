@@ -3,7 +3,7 @@
 Generate random color codes, then copy-paste the colors wherever you like :). 
 
 
-[Demo](https://ghimirekunji.github.io/RGB/)
+[Demo](http://127.0.0.1:5500/rgb.html)
 
 
 *Author
